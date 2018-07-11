@@ -1,0 +1,16 @@
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Tools.deps.json
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Tools.runtimeconfig.json
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Tools.runtimeconfig.dev.json
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Tools.dll
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Tools.pdb
+D:\Code\HMY\BlockChain\Tools\Tools\obj\Debug\netcoreapp2.0\Tools.csprojAssemblyReference.cache
+D:\Code\HMY\BlockChain\Tools\Tools\obj\Debug\netcoreapp2.0\Tools.csproj.CoreCompileInputs.cache
+D:\Code\HMY\BlockChain\Tools\Tools\obj\Debug\netcoreapp2.0\Tools.AssemblyInfoInputs.cache
+D:\Code\HMY\BlockChain\Tools\Tools\obj\Debug\netcoreapp2.0\Tools.AssemblyInfo.cs
+D:\Code\HMY\BlockChain\Tools\Tools\obj\Debug\netcoreapp2.0\Tools.dll
+D:\Code\HMY\BlockChain\Tools\Tools\obj\Debug\netcoreapp2.0\Tools.pdb
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Common.dll
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Crawler.dll
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Crawler.pdb
+D:\Code\HMY\BlockChain\Tools\Tools\bin\Debug\netcoreapp2.0\Common.pdb
+D:\Code\HMY\BlockChain\Tools\Tools\obj\Debug\netcoreapp2.0\Tools.csproj.CopyComplete
