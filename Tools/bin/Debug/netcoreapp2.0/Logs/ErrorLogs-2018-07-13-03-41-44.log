@@ -1,8 +1,0 @@
-﻿Error: Loaded 8 transaction 7a4e0342a0f6cc6bedf7b1c992d4aa2212b84ee52647e938eb8f880b0bb9c4ec data Failed! 
-Error: An error occurred while sending the request. A connection with the server could not be established; 
-   at System.Net.HttpWebRequest.GetResponse()
-   at Common.Helpers.HttpHelper.Get(WebRequest request) in D:\Code\HMY\BlockChain\BlockChainTools\Common\Helpers\HttpHelper.cs:line 125
-   at Crawler.ICBit.ICBitCrawler.GetTransactionInfo(String transactionId) in D:\Code\HMY\BlockChain\BlockChainTools\Crawler\ICBit\ICBitCrawler.cs:line 108
-   at Crawler.ICBit.ICBitCrawler.<>c__DisplayClass9_0.<LoadBatchTransactions>b__0(String transactionId) in D:\Code\HMY\BlockChain\BlockChainTools\Crawler\ICBit\ICBitCrawler.cs:line 154
-   at System.Collections.Generic.List`1.ForEach(Action`1 action)
-   at Crawler.ICBit.ICBitCrawler.LoadBatchTransactions(Int32 index, List`1 transactions) in D:\Code\HMY\BlockChain\BlockChainTools\Crawler\ICBit\ICBitCrawler.cs:line 151

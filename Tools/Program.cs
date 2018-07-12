@@ -35,7 +35,7 @@ namespace Tools
 
                 Task.WaitAll(tasks.ToArray());
 
-                SerializeHelper.XmlSerialize(transactions, $"TransactionDatas/TransactionInfos_{i * size}~{(i + 1) * size}.xml");
+                SerializeHelper.XmlSerialize(transactions, $"TransactionDatas/TransactionInfos_{i * size}~{(i + 1) * size - 1}.xml");
             }
 
             //var tasks = new List<Task>();
