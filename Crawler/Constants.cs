@@ -33,6 +33,11 @@ namespace Crawler
             /// The tx
             /// </summary>
             public const string Tx = "tx/{0}";
+
+            /// <summary>
+            /// The new coins
+            /// </summary>
+            public const string NewCoins = "New Coins";
         }
     }
 }

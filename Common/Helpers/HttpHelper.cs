@@ -21,7 +21,7 @@ namespace Common.Helpers
             string responseContent = string.Empty;
 
             var request = WebRequest.Create(url);
-            request.Timeout = 2000;
+            request.Timeout = 20000;
             request.Method = "POST";
 
             request.ContentType = contentType;
@@ -55,7 +55,7 @@ namespace Common.Helpers
         {
             string responseContent = string.Empty;
 
-            request.Timeout = 2000;
+            request.Timeout = 20000;
             request.Method = "POST";
             var byteArray = Encoding.UTF8.GetBytes(requestBody);
             request.ContentLength = byteArray.Length;
@@ -87,7 +87,7 @@ namespace Common.Helpers
         {
             string responseContent = string.Empty;
 
-            request.Timeout = 2000;
+            request.Timeout = 20000;
             request.Method = "POST";
             var byteArray = Encoding.UTF8.GetBytes(requestBody);
             request.ContentLength = byteArray.Length;
@@ -120,7 +120,7 @@ namespace Common.Helpers
         {
             var content = string.Empty;
 
-            request.Timeout = 2000;
+            request.Timeout = 20000;
             request.Method = "GET";
             var response = (HttpWebResponse)request.GetResponse();
 

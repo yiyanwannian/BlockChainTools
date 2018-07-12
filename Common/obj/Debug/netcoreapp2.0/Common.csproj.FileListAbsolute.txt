@@ -7,3 +7,12 @@ D:\Code\HMY\BlockChain\Tools\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfoI
 D:\Code\HMY\BlockChain\Tools\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfo.cs
 D:\Code\HMY\BlockChain\Tools\Common\obj\Debug\netcoreapp2.0\Common.dll
 D:\Code\HMY\BlockChain\Tools\Common\obj\Debug\netcoreapp2.0\Common.pdb
+D:\Code\HMY\BlockChain\BlockChainTools\Common\bin\Debug\netcoreapp2.0\Common.deps.json
+D:\Code\HMY\BlockChain\BlockChainTools\Common\bin\Debug\netcoreapp2.0\Common.dll
+D:\Code\HMY\BlockChain\BlockChainTools\Common\bin\Debug\netcoreapp2.0\Common.pdb
+D:\Code\HMY\BlockChain\BlockChainTools\Common\obj\Debug\netcoreapp2.0\Common.csprojAssemblyReference.cache
+D:\Code\HMY\BlockChain\BlockChainTools\Common\obj\Debug\netcoreapp2.0\Common.csproj.CoreCompileInputs.cache
+D:\Code\HMY\BlockChain\BlockChainTools\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfoInputs.cache
+D:\Code\HMY\BlockChain\BlockChainTools\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfo.cs
+D:\Code\HMY\BlockChain\BlockChainTools\Common\obj\Debug\netcoreapp2.0\Common.dll
+D:\Code\HMY\BlockChain\BlockChainTools\Common\obj\Debug\netcoreapp2.0\Common.pdb

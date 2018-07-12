@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\HMY\\BlockChain\\Tools\\Common\\Common.csproj",
+      "projectUniqueName": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "D:\\Code\\HMY\\BlockChain\\Tools\\Common\\Common.csproj",
+      "projectPath": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\zhouh\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\HMY\\BlockChain\\Tools\\Common\\obj\\",
+      "outputPath": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -104,13 +104,20 @@ namespace Crawler.ICBit
         /// <returns></returns>
         public Transaction GetTransactionInfo(string transactionId)
         {
-            var transaction = new Transaction();
             var url = $"{Constants.ICBit.Host}/{string.Format(Constants.ICBit.Tx, transactionId)}";
             var content = HttpHelper.Get(HttpRequestCreator(url)).HtmlFormatter();
 
-            var document = new XmlDocument();
-            document.LoadXml(content);
+            var praser = new TransactionPraser(content);
 
+            var transaction = new Transaction()
+            {
+                Txid = praser.PraseTxid(),
+                Confirmations = praser.PraseConfirmations(),
+                BlockHash = praser.PraseBlockHash(),
+                Timestamp = praser.PraseTimestamp(),
+                InputAddresses = praser.PraseInputAddresses(),
+                Recipients = praser.PraseRecipients()
+            };
 
             return transaction;
         }

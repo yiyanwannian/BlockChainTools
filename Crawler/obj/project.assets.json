@@ -726,11 +726,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\HMY\\BlockChain\\Tools\\Crawler\\Crawler.csproj",
+      "projectUniqueName": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Crawler\\Crawler.csproj",
       "projectName": "Crawler",
-      "projectPath": "D:\\Code\\HMY\\BlockChain\\Tools\\Crawler\\Crawler.csproj",
+      "projectPath": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Crawler\\Crawler.csproj",
       "packagesPath": "C:\\Users\\zhouh\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\HMY\\BlockChain\\Tools\\Crawler\\obj\\",
+      "outputPath": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Crawler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -749,8 +749,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Code\\HMY\\BlockChain\\Tools\\Common\\Common.csproj": {
-              "projectPath": "D:\\Code\\HMY\\BlockChain\\Tools\\Common\\Common.csproj"
+            "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Common\\Common.csproj": {
+              "projectPath": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Common\\Common.csproj"
             }
           }
         }

@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\HMY\\BlockChain\\Tools\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Code\\HMY\\BlockChain\\Tools\\Models\\Models.csproj",
+      "projectPath": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\zhouh\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\HMY\\BlockChain\\Tools\\Models\\obj\\",
+      "outputPath": "D:\\Code\\HMY\\BlockChain\\BlockChainTools\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
