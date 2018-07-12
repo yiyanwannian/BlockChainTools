@@ -136,5 +136,29 @@ namespace Crawler.ICBit
 
             return requestTxInfos.data;
         }
+
+        /// <summary>
+        /// Loads the batch transactions.
+        /// </summary>
+        /// <param name="index">The index.</param>
+        /// <param name="transactions">The transactions.</param>
+        public void LoadBatchTransactions(int index, List<Transaction> transactions)
+        {
+            var currentTransactionId = string.Empty;
+
+            try
+            {
+                GetTransactionIds(index).ForEach(transactionId =>
+                {
+                    currentTransactionId = transactionId;
+                    transactions.Add(GetTransactionInfo(transactionId));
+                    LogHelper.Info($"Loaded {index} transaction {transactionId} data");
+                });
+            }
+            catch (Exception ex)
+            {
+                LogHelper.Error($"Loaded {index} transaction {currentTransactionId ?? "Error transactionId"} data Failed!", ex);
+            }
+        }
     }
 }

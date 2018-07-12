@@ -16,7 +16,7 @@ namespace Tools
 
             var heighest = ICBitCrawler.Instance.GetLastTxs().Max(tx => tx.blockindex);
 
-            var size = 16;
+            var size = Environment.ProcessorCount;
             var times = heighest / size + (heighest % size == 0 ? 0 : 1);
 
             for (int i = 0; i < times; i++)
@@ -30,14 +30,7 @@ namespace Tools
                     }
 
                     var index = j;
-                    tasks.Add(Task.Factory.StartNew(() =>
-                    {
-                        ICBitCrawler.Instance.GetTransactionIds(index).ForEach(transactionId =>
-                        {
-                            transactions.Add(ICBitCrawler.Instance.GetTransactionInfo(transactionId));
-                            LogHelper.Info($"Loaded {index} transaction {transactionId} data");
-                        });
-                    }));
+                    tasks.Add(Task.Factory.StartNew(() => ICBitCrawler.Instance.LoadBatchTransactions(index, transactions)));
                 }
 
                 Task.WaitAll(tasks.ToArray());
